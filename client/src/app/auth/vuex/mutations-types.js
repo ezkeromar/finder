@@ -1,0 +1,5 @@
+export const SET_TOKEN = 'Auth//SET_TOKEN'
+export const SET_USER = 'Auth//SET_USER'
+export const SET_CLIENT = 'Auth//SET_CLIENT'
+export const SET_CURRENTSIGNIN = 'Auth//SET_CURRENTSIGNIN'
+export const SET_CURRENTSIGNUP = 'Auth//SET_CURRENTSIGNUP'

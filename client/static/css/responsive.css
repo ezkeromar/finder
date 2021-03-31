@@ -1,0 +1,366 @@
+@media screen and (max-width: 740px) {
+.search-holder input {
+    width: 90%;
+    float: none;
+    margin: 0 auto;
+    display: block;
+}
+.search-btn {
+    position: absolute;
+    top: 0;
+    right: 20px;
+}
+.news, .wanted {
+    width: 100% !important;
+    position: relative;
+}
+.main-homepage {
+    background-size: auto 100%;
+}
+section.wanted-news {
+    height: auto !important;
+}
+.services .col-md-4 p { 
+    font-size: 25px;
+    padding: 15px 10px;
+}
+.services .col-md-4 p + * { 
+    font-size: 49px; 
+}
+section#three {
+    height: 350px !important;
+}
+.securite { 
+    background-size: auto 100%;
+    padding: 40px;
+    text-align: center;
+}
+.title.big {
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+.securite ul {
+    margin-top: 10px;
+}
+.securite li {
+    font-size: 19px;
+}
+.partners {
+    padding: 30px;
+    text-align: center;
+}
+.nousecrire input[type="submit"] {
+    width: 100%;
+}
+/* Other pages */
+.top-header { 
+    padding: 0 10px;
+}
+.container { 
+    width: 100%;
+}
+.alert-login {
+    margin-right: 0;
+    padding-top: 0;
+}
+.alert-icon { 
+	width: 18px;
+    margin-right: 15px;
+    margin-top: 8px;
+}
+.login-logout {
+    font-size: 16px;
+}
+.login-logout img {
+    width: 16px;
+}
+.nav-search nav {
+    display: none;
+}
+.search input {
+    opacity: 1;
+    pointer-events: unset;
+}
+.conversation-holder .msg .msg-content {
+    width: calc(100% - 130px);
+}
+footer {
+    margin-top: 10px;
+}
+.conversation-holder {
+    margin-top: 20px;
+}
+.popup-container {
+    width: 90%;
+}
+.filter-holder {
+    right: -100%;
+    width: 100%;
+}
+.slider {
+    position: relative;
+}
+.filter-holder.active {
+    right: -14%;
+}
+.mesoffres ul li .img-holder {
+    width: 100%;
+}
+.mesoffres ul li .offre-content {
+    width: 100%;
+    margin: 20px 0;
+}
+.mesoffres ul li .img-holder .img {
+    float: left;
+}
+.switch {
+    top: 50px;
+    right: 30px;
+}
+.slider::after {
+    bottom: -10px;
+}
+.page-connexion-content {
+    margin-top: 20px;
+}
+.page-connexion-content .left {
+    width: 100%;
+    height: auto;
+}
+.page-connexion-content .left span { 
+    width: 100%;
+    font-size: 30px;
+}
+.page-connexion-content .left p {
+    position: relative;
+    font-size: 15px;
+    padding: 0;
+    margin-top: 20px;
+    float: left;
+}
+.page-connexion-content .right {
+    height: auto;
+    width: 100%;
+}
+form {
+    margin: 0 !important;
+}
+.modifier-profil {
+    padding: 20px;
+}
+.modifier-profil-holder {
+    width: 100%;
+    float: left;
+}
+.img-container .img-holder {
+    max-width: 140px;
+    max-height: 140px;
+}
+.half-label {
+    width: 100%;
+}
+.btn-orange.small {
+    width: 100%;
+    text-align: center;
+}
+.modifier-profil-holder {
+    margin-bottom: 20px;
+}
+.title {
+    margin-bottom: 15px;
+}
+.mesoffres.consultant ul li {
+    padding: 0;
+    display: block;
+}
+.mesoffres.consultant ul li .left {
+    width: 100%;
+    display: block;
+}
+.mesoffres.consultant ul li .right { 
+    width: 100%;
+}
+section {
+    margin-bottom: 0px;
+}
+.mesoffres, .mes-utilisateurs {
+    margin-top: 30px;
+    float: left;
+}
+.list-profile .img-holder {
+    height: 220px;
+}
+.consultant-cv, .consultant-postuler {
+    padding: 6px;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    line-height: 1em;
+}
+.wanted-items {
+    width: 90%; 
+}
+.wanted, .wanted-news, .news, .news-items-holder, .news-items-holder > ul, .news-item {
+    height: 500px !important;
+}
+.wanted-items li {
+    height: 250px !important;
+}
+.wanted-detail { 
+    padding: 5px; 
+}
+.news-items-holder {
+    width: 90% !important;
+}
+.wanted-btn { 
+    padding: 5px; 
+    font-size: 15px;
+}
+.wanted-info span { 
+    font-size: 14px;
+}
+.wanted-info p {
+    font-size: 12px; 
+}
+.wanted-stars {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.news-item-content p {
+    font-size: 27px;
+}
+.news-item-content span {
+    font-size: 16px;
+}
+.menu-button {
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    margin: 0;
+        margin-left: 0px;
+    float: right;
+    position: relative;
+    margin-left: 10px;
+}
+.menu-button::before {
+    display: block;
+    content: "";
+    width: 28px;
+    height: 4px;
+    box-shadow: 0 -8px 0 0 #000, 0 8px 0 0 #000;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: 18px;
+}
+.menu-button::after {
+    position: absolute;
+    width: 28px;
+    height: 4px;
+    background: black;
+    position: absolute;
+    left: 0;
+    content: '';
+    bottom: 0;
+    margin: auto;
+    right: 0;
+    top: 0;
+}
+.mobile-menu.active {
+	opacity: 1;
+    transition: all 0.25s ease-in 0s;
+	pointer-events: unset;
+}
+.mobile-menu {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 100;
+    background: rgba(0,0,0,0.2);
+    opacity: 0;
+    transition: all 0.25s ease-in 0s;
+    pointer-events: none;
+}
+.mobile-menu.active > ul {
+	opacity: 1;
+	right: 0;
+    transition: all 0.3s linear 0.2s;
+}
+.mobile-menu > ul {
+    position: absolute;
+    width: 80%;
+    right: -100px;
+    opacity: 0;
+    transition: all 0.25s ease-in 0s;
+    background: black;
+    height: 100%;
+    padding: 20px;
+}
+.mobile-menu > ul > li:last-child {
+	border: none;
+}
+.mobile-menu > ul > li {
+    float: left;
+    width: 100%;
+    border-bottom: 2px solid rgba(255,255,255,0.3);
+    padding: 10px 0;
+}
+.mobile-menu > ul a:hover {
+	text-decoration: none;
+}
+.mobile-menu > ul a {
+    font-family: firesans;
+    font-size: 17px;
+    color: #ffae00;
+}
+.sub-menu {
+    padding-left: 10px;
+}
+.mobile-menu-close::before {
+    content: '';
+    background: black;
+    position: absolute;
+    width: 20px;
+    height: 2px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    transform: rotate(45deg);
+}
+.mobile-menu-close::after {
+    content: '';
+    background: black;
+    position: absolute;
+    width: 20px;
+    height: 2px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    transform: rotate(-45deg);
+}
+.mobile-menu-close {
+    background: #ffae00;
+    position: absolute;
+    top: 10px;
+    left: -40px;
+    width: 30px;
+    height: 30px;
+}
+.filter-block .col-md-12 {
+    float: left;
+    width: 90%;
+    position: relative;
+}
+}
